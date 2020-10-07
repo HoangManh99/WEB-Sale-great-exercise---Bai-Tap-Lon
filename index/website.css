@@ -1,0 +1,133 @@
+.container{
+    
+    margin: auto;
+    width: 1000px;
+}
+.header{
+    height: 60px;
+    margin-bottom: 0.1px;
+    display: flex;
+}
+.logo{
+    width: 70px;
+    height: 60px;
+
+}
+.logo img:hover{
+    width: 71px;
+    height: 61px;
+}
+.logo img{
+    width: 70px;
+    height: 60px;
+}
+.menu{
+    width: 70px;
+    height: 60px;
+}
+.name{
+    margin: center;
+    width: 860px;
+    height:60px;
+    text-align: center;
+    text-transform: none;
+    background-color: rgb(233, 236, 12);
+}
+.name h1{
+    color: lightcoral;
+    font-size: 40px;
+    margin-top: 8px;
+    text-shadow: 5px 2px 4px grey;
+    font-weight: bold;
+}
+.name h1:hover{
+    margin-top: 15px;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    /*float: left;*/
+    padding-left: 10px;
+}
+.banner{
+    height: 200px;
+    margin-bottom: 0.1px;
+}
+.banner img{
+    height: 200px;
+    width: 1000px;
+}
+button{
+    width: 70px;
+    height: 50%; 
+    background-color: white;
+    border: 0px;
+    color: mediumblue;
+}
+button:hover{
+    background-color: deeppink;
+}
+.content{
+    width: auto;
+    height: auto;
+}
+.group{
+    display: flex;
+}
+.products{
+    width: 150px;
+    height: 185px;
+    border: 3px;
+    margin: 8.5px;
+}
+.price{
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    background-color: violet;
+}
+.price:hover{
+    background-color: crimson;
+}
+.price h5{
+    margin: auto;
+    padding-top: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.products img{
+    width: 150px;
+    height: 150px;
+}
+.products img:hover{
+    width: 153px;
+    height: 153px;
+}
+.bottom{
+    width: 985px;
+    height: 100px;
+    background-color: slateblue;
+    display: flex;
+    margin: auto;
+}
+.note{
+    width: 45%;
+}
+.note ul{
+    list-style: none;
+    padding-top: 10px;
+}
+.link{
+    width: 55%;
+    display: flex;
+}
+.link img{
+    width: 40px;
+    height: 40px;
+    margin: 30px;
+}
+.link img:hover{
+    width: 45px;
+    height: 45px;
+}
